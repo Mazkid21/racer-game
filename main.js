@@ -1,7 +1,7 @@
 setInterval(moveRacer, 30);
 var keys = {};
 
-
+// Function to make the q and p key move racers 
 $(document).keydown(function(e) {
     keys[e.keyCode] = true;
 });
@@ -24,7 +24,7 @@ function moveRacer() {
     }
 }
 
-
+// win state function 
 function checkWinner () {
     if ($(".racer1").css("left",  "1000px")) {
         console.log("yay");

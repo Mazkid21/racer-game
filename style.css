@@ -1,9 +1,11 @@
+/*game board styles */
 .board {
 	border: 1px solid black;
 	height: 800px;
     position: absolute;
 }
 
+/*racer styles, dont need both if I keep them same styles */
 .racer1 {
 	border: 1px solid black;
 	width: 50px;
@@ -20,6 +22,7 @@
     top: 400px;
 }
 
+/*finish line styles */
 .finish {
 	border: 1px solid black;
 	width: 50px;
