@@ -26,6 +26,10 @@ function moveRacer() {
 
 // win state function 
 function checkWinner () {
+    var car1 = $(".racer1").position();
+    console.log(car1);
+
+
     if ($(".racer1").css("left",  "1000px")) {
         console.log("yay");
         return alert("Racer one wins!!!");
