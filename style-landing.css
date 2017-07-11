@@ -14,4 +14,6 @@ button {
 	color: #FF0048;
 	font-family: 'Press Start 2P', cursive;
 	border-radius: 15px;
+	text-align: center;
+	border: 1px dashed #FF0048;
 }
