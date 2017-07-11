@@ -17,4 +17,5 @@ button {
 	text-align: center;
 	border: 1px dashed #FF0048;
 	box-shadow: 1px 1px 4px 2px rgba(255,0,72,0.72);
+	padding: 5px 10px 5px 11px;
 }

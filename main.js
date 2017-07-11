@@ -29,8 +29,10 @@ function checkWinner () {
     var car1 = $(".racer1").position();
     console.log(car1);
 
+    var car2 = $(".racer2").position();
 
-    if ($(".racer1").css("left",  "1000px")) {
+
+    if ($(".racer1").css("left",  '830')) {
         console.log("yay");
         return alert("Racer one wins!!!");
     }
