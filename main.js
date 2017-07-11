@@ -26,18 +26,22 @@ function moveRacer() {
 
 // win state function 
 function checkWinner () {
-    var car1 = $(".racer1").position();
-    console.log(car1);
+    // var car1 = $(".racer1").position();
+    // console.log(car1);
 
-    var car2 = $(".racer2").position();
+    // var car2 = $(".racer2").position();
+
+    // if  ($(".racer1").style({left: "830"})) {
+    //     return alert("Racer 1 wins");
+    // }
 
 
-    if ($(".racer1").css("left",  '830')) {
-        console.log("yay");
-        return alert("Racer one wins!!!");
-    }
-    if ($(".racer2").position + $(".racer2").offsetWidth >= window.innerWidth - 40) {
-        return alert("Racer two wins!!!");
-    }
+     if ($("racer1").offset({left: 835})) {
+         console.log("yay");
+         return alert("Racer one wins!!!");
+     }
+     if ($(".racer2").position() + $(".finish").offsetWidth() >= $(".finish").innerWidth() - 40) {
+         return alert("Racer two wins!!!");
+    
 
-    }
+    }}
