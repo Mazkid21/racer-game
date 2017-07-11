@@ -1,0 +1,48 @@
+body {
+    background-color: #FFF1E7;
+    font-family: 'Press Start 2P', cursive;
+    color: #FF0048;
+}
+
+p{
+    font-size: 10px;
+    margin-left: 10px;
+}
+
+/*game board styles */
+.board {
+    position: absolute;
+    border: 1px solid #FF0048;
+    width: 920px;
+    top: 150px;
+    height: 500px;
+    
+}
+
+/*racer styles, dont need both if I keep them same styles */
+.racer1 {
+	border: 1px solid #FF0048;;
+	width: 50px;
+    height: 10px;
+    position: absolute;
+    top: 60px;
+}
+
+.racer2 {
+	border: 1px solid #FF0048;;
+	width: 50px;
+    height: 10px;
+    position: absolute;
+    top: 400px;
+}
+
+/*finish line styles */
+.finish {
+	background-image: linear-gradient(45deg, #FF0048 25%, transparent 25%), linear-gradient(-45deg, #FF0048 25%, transparent 25%), linear-gradient(45deg, transparent 75%, #FF0048 75%), linear-gradient(-45deg, transparent 75%, #FF0048 75%);
+    border: 1px solid #FF0048;
+	width: 50px;
+    position: absolute;
+    right: 9px;
+    height: 500px;
+    left: 870px;
+}
